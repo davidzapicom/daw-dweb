@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, #5cff10, #d2379b);
+    background-color:#d2379b);
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     overflow: hidden;
@@ -24,7 +24,7 @@ nav {
     margin: 0px auto;
     perspective: 2000px;
     flex-wrap: wrap;
-    top: 3em;
+    top: 0em;
 }
 
 nav .menu-item {
@@ -69,7 +69,7 @@ nav .menu-text a:hover {
     box-sizing: border-box;
     top: 3rem;
     border-radius: 10px;
-    background: white;
+    background: grey;
     display: block;
     height: 300px;
     width: calc(var(--menu-width) * 1.5);
@@ -357,4 +357,20 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 }
 #info-box a:hover {
     color: rgba(255,255,255,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+    background: linear-gradient(45deg, #5cff10, #d2379b);
+    height: 60px
 }
