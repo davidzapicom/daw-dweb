@@ -7,11 +7,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#d2379b);
+    background-color:#d2379b;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav .menu-text a:hover {
 
 #sub-menu-holder {
     pointer-events: none;
-    color: rgba(0,0,0,0.5);
+    color: white;
     font-weight: normal;
     padding: 1em;
     position: absolute;
@@ -69,7 +69,7 @@ nav .menu-text a:hover {
     box-sizing: border-box;
     top: 3rem;
     border-radius: 10px;
-    background: grey;
+    background: #181D31;
     display: block;
     height: 300px;
     width: calc(var(--menu-width) * 1.5);
@@ -91,6 +91,7 @@ nav .menu-item:hover ~ #sub-menu-container #sub-menu-holder {
     opacity: 1;
     right: auto;
 }
+
 nav .menu-item:nth-of-type(1):hover ~ #sub-menu-container #sub-menu-holder,
 nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     clip-path: inset(0 28.75em 0 0 round 10px);
@@ -105,14 +106,17 @@ nav .menu-item:nth-of-type(3):hover ~ #sub-menu-container #sub-menu-holder {
 nav .menu-item:nth-of-type(1):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(-9em + -1px);
 }
+
 nav .menu-item:nth-of-type(2):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(-6.5em + -1px);
     height: 18.75em;
 }
+
 nav .menu-item:nth-of-type(3):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(2.75em + 1px);
     height: 24.5em;
 }
+
 nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     left: calc(19em + 1px);
 }
@@ -120,7 +124,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 .menu-item .sub-menu {
     position: absolute;
     top: 7em;
-    color: rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     min-width: 27.5em;
     pointer-events: none;
@@ -140,6 +144,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     display: grid;
     grid-template-columns: 54% 50%;
 }
+
 .menu-item .sub-menu.triple {
     min-width: 41.25em;
     height: 25em;
@@ -147,6 +152,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     padding: 1.5em 2.5em;
     grid-template-columns: 55% 45%;
 }
+
 .menu-item:hover .sub-menu {
     pointer-events: all;
     clip-path: inset(0 0 0 0);
@@ -164,11 +170,13 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     border-width: 10px;
     border-style: solid;
 }
+
 .menu-item:hover .menu-text:after {
     bottom: 0.5em;
     opacity: 1;
     transition: bottom 0.25s ease-out, opacity 0.01s ease-out 0.15s;
 }
+
 .menu-item:hover .sub-menu {
     opacity: 1;
     margin-left: 0;
@@ -192,7 +200,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 /* Menu specific */
 .menu-item .title {
     font-weight: 500;
-    color: rgb(44 70 86);
+    color: white;
     margin: 0 0 0.25em 0;
 }
 
@@ -200,26 +208,36 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     transition: all 0.1s ease-out;
     position: relative;
 }
+
 .menu-item .icon-box.space {
     margin-bottom: 1.25em;
 }
+
 .menu-item .icon-box.flat {
     height: 1.5em;
     margin-bottom: 0.5em;
 }
+
 .menu-item .icon, .menu-item .text {
     float: left;
-    color: #9ea9af;
+    color: #ffffff;
+}
+
+.menu-item a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .menu-item .icon {
-    color: rgb(44 70 86);
+    color: white;
     font-size: 1.25em;
     margin: 0 1em 0 0;
 }
+
 .menu-item .icon-box {
     cursor: pointer;
 }
+
 .menu-item .icon-box {
     float: left;
     width: 100%;
@@ -316,7 +334,7 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
     float: left;
     font-size: 1em;
     line-height: 1.75em;
-    color: #7a8a94;
+    color: #181D31;
     text-decoration: none;
 }
 
@@ -371,6 +389,6 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 
 
 .nav {
-    background: linear-gradient(45deg, #5cff10, #d2379b);
+    background: linear-gradient(45deg,#5cff10, #181D31);
     height: 60px
 }
