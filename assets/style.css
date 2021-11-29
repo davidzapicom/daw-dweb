@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#d2379b;
+    background-color:#E6CCA9;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     overflow: hidden;
@@ -69,7 +69,7 @@ nav .menu-text a:hover {
     box-sizing: border-box;
     top: 3rem;
     border-radius: 10px;
-    background: #181D31;
+    background: #122562;
     display: block;
     height: 300px;
     width: calc(var(--menu-width) * 1.5);
@@ -280,7 +280,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 #sub-menu-bottom {
-    background: #d4e3ea70;
+    background: #200049;
     position: absolute;
     bottom: 0;
     opacity: 0;
@@ -334,7 +334,7 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
     float: left;
     font-size: 1em;
     line-height: 1.75em;
-    color: #181D31;
+    color: #122562;
     text-decoration: none;
 }
 
@@ -389,6 +389,6 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 
 
 .nav {
-    background: linear-gradient(45deg,#5cff10, #181D31);
+    background: #122562;
     height: 60px
 }
