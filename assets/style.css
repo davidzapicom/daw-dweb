@@ -254,22 +254,6 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     top: -1px;
 }
 
-/* Base Icon Style */
-.icon-box.gb .icon i:before {
-    background: linear-gradient(45deg, #0c86ef, #0cef9b);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    padding-left: 1px;
-}
-
-/* Define Icon Colors */
-.icon-box.gb.a .icon i:before {background-image: linear-gradient(45deg, #2ca7ff 35%, #31d078 75%);}
-.icon-box.gb.b .icon i:before {background-image: linear-gradient(45deg, #f32b2b 35%, #efbe0c 75%);}
-.icon-box.gb.c .icon i:before {background-image: linear-gradient(45deg, #7176ff 35%, #b26cea 75%);}
-.icon-box.gb.d .icon i:before {background-image: linear-gradient(45deg, #79c76f 35%, #bed09b 75%);}
-.icon-box.gb.e .icon i:before {background-image: linear-gradient(45deg, #6082ff 35%, #ff5dbe 75%);}
-.icon-box.gb.f .icon i:before {background-image: linear-gradient(45deg, #808080 35%, #bbbbbb 75%);}
-
 .menu-item .icon-box:hover .text i {
     clip-path: inset(0 0 0 0);
     transition: clip-path 0.1s ease-out;
@@ -289,9 +273,11 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     width: 100%;
     height: 5em;
 }
+
 nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom {
     height: 7.5em;
 }
+
 .bottom-container {
     grid-area: 4 / -3 / 4 / 3;
     padding-top: 1.5em;
@@ -361,6 +347,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 #info-box ul {
     list-style: none;
 }
+
 #info-box a {
     color: white;
     text-decoration: none;
@@ -373,20 +360,10 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
     font-weight: 900;
     letter-spacing: 1px;
 }
+
 #info-box a:hover {
     color: rgba(255,255,255,0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .nav {
     background: #122562;
