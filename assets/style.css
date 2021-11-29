@@ -274,10 +274,6 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     height: 5em;
 }
 
-nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom {
-    height: 7.5em;
-}
-
 .bottom-container {
     grid-area: 4 / -3 / 4 / 3;
     padding-top: 1.5em;
@@ -336,7 +332,6 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
     font-size: 1.25em;
     top: 0.2em;
 }
-nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom { opacity: 1; }
 
 #info-box {
     position: absolute;
@@ -368,4 +363,18 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 .nav {
     background: #122562;
     height: 60px
+}
+
+
+.footer {
+    background-color: #122562;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    bottom: 0px;
 }
