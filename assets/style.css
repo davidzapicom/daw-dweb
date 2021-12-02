@@ -19,6 +19,21 @@ FOOTER
 ------------------------------------------------------------------------------ */
 
 
+
+/* ------------------------------------------------------------------------------
+FUENTES
+------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+
+
+
+
+
+
 /* ------------------------------------------------------------------------------
 ESTILOS GENERALES
 ------------------------------------------------------------------------------ */
@@ -33,11 +48,14 @@ ESTILOS GENERALES
     --item-width: calc(var(--menu-width) / var(--items));
 }
 
+
+
+
+
 body {
     margin: 0;
     padding: 0;
     background-color:#E6CCA9;
-    font-family: 'Roboto', sans-serif;
     height: 100vh;
     overflow: hidden;
     width: 100%;
@@ -45,10 +63,7 @@ body {
 }
 
 
-/* ------------------------------------------------------------------------------
-FUENTES
------------------------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
 
 
 
@@ -58,6 +73,10 @@ FUENTES
 /* ------------------------------------------------------------------------------
 HEADER
 ------------------------------------------------------------------------------ */
+header {
+    font-family: 'Outfit', sans-serif;
+}
+
 nav {
     width: var(--menu-width);
     display: flex;
@@ -97,6 +116,11 @@ nav .menu-text, nav .menu-text a {
 
 nav .menu-text a:hover {
     color: rgba(255,255,255,0.5);
+}
+
+nav .menu-text p:hover {
+    margin-bottom: 3px;
+    text-decoration: underline 2px;
 }
 
 #sub-menu-holder {
@@ -434,15 +458,18 @@ BODY
     margin: 0 auto;
     padding: 20px;
     width: 70%;
+    font-family: 'Raleway', sans-serif;
     
 }
 
 #contenido h1,h2,h3,h4 {
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
-    font-family: 'Outfit', sans-serif;
 }
 
+#contenido p {
+    text-align: center;
+}
 
 
 
