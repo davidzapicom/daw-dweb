@@ -1,3 +1,32 @@
+/* ------------------------------------------------------------------------------
+  Autor: David Zapico
+  Descripcion: Estilos proyecto web para la asignatura de interfaces. 2DAW.
+
+  _____              _     _   ______           _           
+ |  __ \            (_)   | | |___  /          (_)          
+ | |  | | __ ___   ___  __| |    / / __ _ _ __  _  ___ ___  
+ | |  | |/ _` \ \ / / |/ _` |   / / / _` | '_ \| |/ __/ _ \ 
+ | |__| | (_| |\ V /| | (_| |  / /_| (_| | |_) | | (_| (_) |
+ |_____/ \__,_| \_/ |_|\__,_| /_____\__,_| .__/|_|\___\___/ 
+                                         | |                
+                                         |_|   
+
+ESTILOS GENERALES
+FUENTES
+HEADER
+BODY
+FOOTER
+------------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------------
+ESTILOS GENERALES
+------------------------------------------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --menu-width: 45em; /* Width of menu */
     --items: 4; /* Number of items you have */
@@ -12,8 +41,23 @@ body {
     height: 100vh;
     overflow: hidden;
     width: 100%;
+    color: white;
 }
 
+
+/* ------------------------------------------------------------------------------
+FUENTES
+------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+HEADER
+------------------------------------------------------------------------------ */
 nav {
     width: var(--menu-width);
     display: flex;
@@ -197,7 +241,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     }
 }
 
-/* Menu specific */
+/* Menu specifico */
 .menu-item .title {
     font-weight: 500;
     color: white;
@@ -366,7 +410,82 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 
-.footer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+BODY
+------------------------------------------------------------------------------ */
+#contenido {
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+    
+}
+
+#contenido h1,h2,h3,h4 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------ */
+
+footer {
     background-color: #122562;
     height: 50px;
     width: 100%;
@@ -377,4 +496,5 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     justify-content: center;
     position:fixed;
     bottom: 0px;
+    font-family: 'Outfit', sans-serif;
 }
