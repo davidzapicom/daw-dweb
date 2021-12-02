@@ -75,6 +75,8 @@ HEADER
 ------------------------------------------------------------------------------ */
 header {
     font-family: 'Outfit', sans-serif;
+    background: #122562;
+    height: 60px;
 }
 
 nav {
@@ -115,11 +117,10 @@ nav .menu-text, nav .menu-text a {
 }
 
 nav .menu-text a:hover {
-    color: rgba(255,255,255,0.5);
+    color: #E6CCA9;
 }
 
 nav .menu-text p:hover {
-    margin-bottom: 3px;
     text-decoration: underline 2px;
 }
 
@@ -146,7 +147,6 @@ nav .menu-text p:hover {
 #sub-menu-container {
     position: absolute;
     z-index: -1;
-    min-width: 100%;
     top: 2.5em;
     width: 100%;
 }
@@ -214,11 +214,11 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .sub-menu.triple {
-    min-width: 41.25em;
+    min-width: 45em;
     height: 25em;
     display: grid;
     padding: 1.5em 2.5em;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 30% 30%;
 }
 
 .menu-item:hover .sub-menu {
@@ -226,6 +226,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     clip-path: inset(0 0 0 0);
 }
 
+/*flecha*/
 .menu-text:after {
     transition: bottom 0.25s ease-out, opacity 0.01s ease-out 0.01s;
     opacity: 0;
@@ -234,7 +235,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     pointer-events: none;
     bottom: -5em;
     left: calc(50% - 10px);
-    border-color: transparent transparent white transparent;
+    border-color: transparent transparent #122562 transparent;
     border-width: 10px;
     border-style: solid;
 }
@@ -328,7 +329,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .icon-box:hover .icon, .menu-item .icon-box:hover .title, .menu-item .icon-box:hover .sub-text {
-    color: rgb(89 110 123);
+    color: #E6CCA9;
 }
 
 #sub-menu-bottom {
@@ -375,21 +376,22 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: rgb(44 70 86 / 68%);
+    color: white;
     margin: 0.75em 0;
 }
 
 .sub-menu .box a {
     width: 100%;
     float: left;
+    text-align: center;
     font-size: 1em;
     line-height: 1.75em;
-    color: #122562;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .sub-menu .box a:hover {
-    color: rgb(44 70 86);
+    color: #E6CCA9;
 }
 
 .box {
@@ -428,10 +430,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     color: rgba(255,255,255,0.5);
 }
 
-.nav {
-    background: #122562;
-    height: 60px
-}
+
 
 
 
@@ -467,9 +466,12 @@ BODY
     text-transform: uppercase;
 }
 
-#contenido p {
-    text-align: center;
+#contenido .texto {
+    margin: 0 auto;
+    width: 50%;
+    text-align: justify;
 }
+
 
 
 
