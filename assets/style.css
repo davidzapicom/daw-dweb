@@ -240,6 +240,10 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     border-style: solid;
 }
 
+.menu-text .active {
+    font-weight: 700;
+}
+
 .menu-item:hover .menu-text:after {
     bottom: 0.5em;
     opacity: 1;
