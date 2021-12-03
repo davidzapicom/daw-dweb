@@ -477,7 +477,16 @@ BODY
 }
 
 
-
+#contenido img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+    justify-content: center;
+}
 
 
 
