@@ -350,7 +350,7 @@ p .active {
 .bottom-container {
     grid-area: 4 / -3 / 4 / 3;
     padding-top: 1.5em;
-    color: #3a5260;
+    color: #ffffff;
     font-weight: 500;
 }
 
@@ -361,11 +361,11 @@ p .active {
 
 .bottom-container a {
     float: right;
-    background: linear-gradient(90deg, #8ea4b166, #a3b5bf6b);
+    background: #ffffff;
     padding: 0.5em 1em;
     border-radius: 100px;
     position: absolute;
-    color: #2c4655bf;
+    color: #122562;
     font-weight: bold;
     text-decoration: none;
     right: 1.5em;
@@ -374,6 +374,7 @@ p .active {
 
 .bottom-container a:hover {
     background: linear-gradient(90deg, #8ea4b136, #a3b5bf33);
+    color: #ffffff;
 }
 
 .sub-menu h3 {
@@ -462,7 +463,11 @@ BODY
     justify-content: center;
 }
 
-
+.linea {
+    margin: 15px;
+    border: 2px solid #122562;
+    border-radius: 50%;
+}
 
 
 
