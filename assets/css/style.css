@@ -112,10 +112,6 @@ nav .menu-text a:hover {
     color: #E6CCA9;
 }
 
-nav .menu-text p:hover {
-    text-decoration: underline 2px;
-}
-
 #sub-menu-holder {
     pointer-events: none;
     color: white;
@@ -452,6 +448,10 @@ CONTENIDO
 #contenido ol, ul {
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
+}
+
+#contenido li a:hover {
+    text-decoration: underline;
 }
 
 #contenido a {
