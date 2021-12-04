@@ -61,9 +61,6 @@ body {
 
 
 
-
-
-
 /* ------------------------------------------------------------------------------
 HEADER
 ------------------------------------------------------------------------------ */
@@ -235,10 +232,6 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     border-style: solid;
 }
 
-p .active {
-    font-weight: 700;
-}
-
 .menu-item:hover .menu-text:after {
     bottom: 0.5em;
     opacity: 1;
@@ -372,6 +365,11 @@ p .active {
     color: #ffffff;
 }
 
+.bottom-container a.active {
+    background: linear-gradient(90deg, #8ea4b136, #a3b5bf33);
+    color: #ffffff;
+}
+
 .sub-menu h3 {
     font-size: 1em;
     text-transform: uppercase;
@@ -434,9 +432,15 @@ CONTENIDO
     margin-bottom: 80px;
 }
 
-#contenido h1,h2,h3,h4 {
+#contenido h1,h2 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    text-transform: uppercase;
+}
+
+#contenido h3,h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
     text-transform: uppercase;
 }
 
@@ -448,6 +452,13 @@ CONTENIDO
 #contenido ol, ul {
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
+}
+
+#contenido a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
 }
 
 #contenido .texto {
