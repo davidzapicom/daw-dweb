@@ -41,7 +41,7 @@ ESTILOS GENERALES
 
 :root {
     --menu-width: 45em; /* Width of menu */
-    --items: 4; /* Number of items you have */
+    --items: 3; /* Number of items you have */
     --item-width: calc(var(--menu-width) / var(--items));
 }
 
@@ -85,7 +85,7 @@ nav {
 }
 
 nav .menu-item {
-    color: white;
+    color: #ffffff;
     font-weight: 600;
     transform-style: preserve-3d;
     flex-grow: 1;
@@ -101,7 +101,7 @@ nav .menu-item {
 
 nav .menu-text, nav .menu-text a {
     font-size: 1em;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     text-shadow: 0 1px 5px rgba(0,0,0,0.1);
     transition: color 0.1s ease-out;
@@ -114,7 +114,7 @@ nav .menu-text a:hover {
 
 #sub-menu-holder {
     pointer-events: none;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
     padding: 1em;
     position: absolute;
@@ -124,12 +124,12 @@ nav .menu-text a:hover {
     opacity: 0;
     box-shadow: 0 2px 7px rgba(0,0,0,0.1), 0 2px 20px rgba(0,0,0,0.3);
     box-sizing: border-box;
-    top: 3rem;
-    border-radius: 10px;
     background: #122562;
     display: block;
     height: 300px;
     width: calc(var(--menu-width) * 1.5);
+    align-items: center;
+    justify-content: center;
 }
 
 #sub-menu-container {
@@ -180,13 +180,10 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 .menu-item .sub-menu {
     position: absolute;
     top: 7em;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
     min-width: 27.5em;
     pointer-events: none;
     box-sizing: border-box;
     z-index: 999;
-    margin-left: -5em;
     clip-path: inset(0 10em 10em 15em);
     opacity: 0;
     font-weight: initial;
@@ -202,11 +199,12 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .sub-menu.triple {
-    min-width: 41.25em;
+    width: 40em;
     height: 25em;
     display: grid;
-    padding: 1.5em 2.5em;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-items: center;
+    align-self: start;
 }
 
 .menu-item:hover .sub-menu {
@@ -257,7 +255,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 /* Menu specifico */
 .menu-item .title {
     font-weight: 500;
-    color: white;
+    color: #ffffff;
     margin: 0 0 0.25em 0;
 }
 
@@ -286,7 +284,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .icon {
-    color: white;
+    color: #ffffff;
     font-size: 1.25em;
     margin: 0 1em 0 0;
 }
@@ -368,10 +366,12 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 
 .sub-menu h3 {
     font-size: 1em;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: white;
+    color: #ffffff;
     margin: 0.75em 0;
+    text-align: center;
 }
 
 .sub-menu .box a {
@@ -458,7 +458,7 @@ CONTENIDO
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 #contenido .texto {
@@ -510,7 +510,7 @@ footer {
     background-color: #122562;
     height: 35px;
     width: 100%;
-    color: white;
+    color: #ffffff;
     text-align: center;
     align-items: center;
     display:flex;
@@ -535,7 +535,7 @@ INFO BOX
 }
 
 #info-box a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     text-align: right;
     padding: 0.5em 0;
