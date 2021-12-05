@@ -457,7 +457,6 @@ ul {
 #contenido img {
 	padding: 20px 0 20px 0;
 	display: flex;
-	width: 500px;
 	margin: 0 auto;
 	overflow: hidden;
 	justify-content: center;
@@ -471,37 +470,75 @@ ul {
 
 .contenedor {
 	margin-top: 20px;
+    margin-bottom: 20px;
 	height: 400px;
 	align-items: center;
 	justify-content: center;
+    background-color: #122562;
+    border-radius: 15px;
 }
 
 .izquierda {
+    padding-top: 40px;
+    padding-left: 20px;
 	float: left;
-	width: 50%;
+	width: 58%;
 	justify-content: center;
 }
 
 .derecha {
-	width: 50%;
+	width: 40%;
 	float: left;
 	justify-content: center;
 }
 
 .derecha img {
+    width: 350px;
 	text-align: right;
 }
+
+
+
+
+
+
+
+
+
 
 .caja-texto {
 	padding: 10px 10px 10px 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .next {
-	width: var(--menu-width);
 	color: #ffffff;
 	display: flex;
 	position: fixed;
-	bottom: 120px;
+	bottom: 50px;
+    background-color: #122562;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /* ------------------------------------------------------------------------------
