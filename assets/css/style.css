@@ -398,11 +398,17 @@ CONTENIDO
 	margin-bottom: 80px;
 }
 
-#contenido h1,
-h2 {
+#contenido h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#contenido h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+    margin-top: 10px;
 }
 
 #contenido h3,
@@ -410,6 +416,14 @@ h4 {
 	font-family: 'Raleway', sans-serif;
 	text-align: justify;
 	text-transform: uppercase;
+}
+
+#contenido h3 {
+	margin-top: 10px;
+}
+
+#contenido h4 {
+	margin-bottom: 10px;
 }
 
 #contenido p {
@@ -456,40 +470,39 @@ ul {
 }
 
 .contenedor {
+	margin-top: 20px;
 	height: 400px;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .izquierda {
 	float: left;
 	width: 50%;
-    justify-content: center;
+	justify-content: center;
 }
 
 .derecha {
-	width: 40%;
+	width: 50%;
 	float: left;
-    justify-content: center;
+	justify-content: center;
+}
+
+.derecha img {
+	text-align: right;
 }
 
 .caja-texto {
-    padding: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
-
-
-
-
-
 .next {
-    width: var(--menu-width);
+	width: var(--menu-width);
 	color: #ffffff;
 	display: flex;
 	position: fixed;
 	bottom: 120px;
 }
-
 
 /* ------------------------------------------------------------------------------
 FOOTER
