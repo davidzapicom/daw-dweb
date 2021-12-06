@@ -50,6 +50,39 @@ body {
 	color: white;
 }
 
+body::-webkit-scrollbar {
+    width: 6px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+body::-webkit-scrollbar-thumb {
+    background: #122562;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+    background-color: #e6cca9;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+body::-webkit-scrollbar-track {
+    background: #e1e1e1;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #122562;
+}
+
 /* ------------------------------------------------------------------------------
 HEADER
 ------------------------------------------------------------------------------ */
@@ -476,6 +509,19 @@ ul {
 	justify-content: center;
     background-color: #122562;
     border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contenedor-mini {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	height: 90px;
+	align-items: center;
+	justify-content: center;
+    background-color: #122562;
+    border-radius: 15px;
+	padding: 30px;
 }
 
 .contenedor-largo {
@@ -490,6 +536,27 @@ ul {
 	padding-right: 20px;
 }
 
+.contenedor-largo-max {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	height: 800px;
+	align-items: center;
+	justify-content: center;
+    border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contenedor-largo-super-max {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	height: 1200px;
+	align-items: center;
+	justify-content: center;
+    border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 
 .izquierda {
@@ -518,23 +585,71 @@ ul {
 width: 200px;
 }
 
+.arriba img.grande {
+	width: 900px;
+}
+
 .abajo {
 	width: 100%;
 }
 
+.abajo img {
+	width: 200px;
+}
+	
+.abajo img.grande {
+	width: 900px;
+}
+
+.background {
+background-color: #122562;
+}
+
+.radius {
+	border-radius: 15px;
+}
 
 
+.contenedor-esp {
+	margin-top: 20px;
+    margin-bottom: 20px;	
+	height: 780px;
+	align-items: center;
+	justify-content: center;
+    border-radius: 15px;
+}
 
+.izquierda-esp {
+	float: left;
+	width: 46.6%;
+	justify-content: center;
+	height: 500px;
+	padding: 20px;
+}
 
+.derecha-esp {
+	width: 46.6%;
+	float: left;
+	justify-content: center;
+	height: 500px;
+	padding: 20px;
+}
 
-
+.abajo-esp {
+	height: 200px;
+	width: 97%;
+	clear: both;
+	padding: 20px;
+}
 
 .caja-texto {
 	padding: 10px 10px 10px 10px;
 	text-align: justify;
 }
 
-
+.space {
+	margin-top: 100px;
+}
 
 
 
