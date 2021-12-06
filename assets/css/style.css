@@ -558,6 +558,17 @@ ul {
 	padding-right: 20px;
 }
 
+.contenedor-largo-super-medium {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	height: 900px;
+	align-items: center;
+	justify-content: center;
+    border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .contenedor-largo-super-max {
 	margin-top: 20px;
     margin-bottom: 20px;
@@ -568,7 +579,6 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
 
 .izquierda {
     padding-top: 40px;
