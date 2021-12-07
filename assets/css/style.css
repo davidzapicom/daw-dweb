@@ -507,7 +507,6 @@ ul {
 	height: 400px;
 	align-items: center;
 	justify-content: center;
-    background-color: #122562;
     border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -519,7 +518,6 @@ ul {
 	height: 90px;
 	align-items: center;
 	justify-content: center;
-    background-color: #122562;
     border-radius: 15px;
 	padding: 30px;
 }
@@ -530,7 +528,6 @@ ul {
 	height: 150px;
 	align-items: center;
 	justify-content: center;
-    background-color: #122562;
     border-radius: 15px;
 	padding: 30px;
 }
@@ -541,7 +538,6 @@ ul {
 	height: 500px;
 	align-items: center;
 	justify-content: center;
-    background-color: #122562;
     border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -626,6 +622,10 @@ width: 200px;
 background-color: #122562;
 }
 
+.border {
+	border: 2px solid #122562;
+}
+
 .radius {
 	border-radius: 15px;
 }
@@ -653,6 +653,22 @@ background-color: #122562;
 	float: left;
 	justify-content: center;
 	height: 500px;
+	padding: 20px;
+}
+
+.izquierda-esp-med {
+	float: left;
+	width: 46.6%;
+	justify-content: center;
+	height: 400px;
+	padding: 20px;
+}
+
+.derecha-esp-med {
+	width: 46.6%;
+	float: left;
+	justify-content: center;
+	height: 400px;
 	padding: 20px;
 }
 
