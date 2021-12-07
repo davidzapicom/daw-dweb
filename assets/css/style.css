@@ -562,7 +562,18 @@ ul {
 .contenedor-largo {
 	margin-top: 20px;
     margin-bottom: 20px;
-	height: 500px;
+	height: 530px;
+	align-items: center;
+	justify-content: center;
+    border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contenedor-largo-med {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	height: 600px;
 	align-items: center;
 	justify-content: center;
     border-radius: 15px;
@@ -604,10 +615,9 @@ ul {
 }
 
 .izquierda {
-    padding-top: 40px;
     padding-left: 20px;
 	float: left;
-	width: 58%;
+	width: 56%;
 	justify-content: center;
 }
 
@@ -657,7 +667,6 @@ background-color: #122562;
 	border-radius: 15px;
 }
 
-
 .contenedor-esp {
 	margin-top: 20px;
     margin-bottom: 20px;	
@@ -669,14 +678,14 @@ background-color: #122562;
 
 .izquierda-esp {
 	float: left;
-	width: 46.6%;
+	width: 45.5%;
 	justify-content: center;
 	height: 500px;
 	padding: 20px;
 }
 
 .derecha-esp {
-	width: 46.6%;
+	width: 45.5%;
 	float: left;
 	justify-content: center;
 	height: 500px;
@@ -701,7 +710,7 @@ background-color: #122562;
 
 .abajo-esp {
 	height: 200px;
-	width: 97%;
+	width: 96%;
 	clear: both;
 	padding: 20px;
 }
