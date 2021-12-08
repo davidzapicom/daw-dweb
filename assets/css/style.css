@@ -508,116 +508,77 @@ ul {
 	border-radius: 50%;
 }
 
-.contenedor-mini-m {
+.contenedor-mini-m, .contenedor-mini, .contenedor-med, .contenedor-med2, .contenedor, .contenedor-largo, .contenedor-largo-med, .contenedor-largo-med2, .contenedor-largo-max, .contenedor-largo-super-medium, .contenedor-largo-super-max {
 	margin-top: 20px;
     margin-bottom: 20px;
-	height: 90px;
 	align-items: center;
 	justify-content: center;
     border-radius: 15px;
 	padding: 30px;
+}
+
+.contenedor-mini-m {
+	height: 90px;
 }
 
 .contenedor-mini {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 150px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
-	padding: 30px;
 }
 
 .contenedor-med {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 200px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
-	padding: 30px;
 }
 
 .contenedor-med2 {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 300px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
-	padding: 30px;
 }
 
 .contenedor {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 400px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .contenedor-largo {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 530px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .contenedor-largo-med {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 600px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contenedor-largo-med2 {
+	height: 700px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .contenedor-largo-max {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 800px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .contenedor-largo-super-medium {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 900px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .contenedor-largo-super-max {
-	margin-top: 20px;
-    margin-bottom: 20px;
 	height: 1200px;
-	align-items: center;
-	justify-content: center;
-    border-radius: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .izquierda {
-    padding-left: 20px;
 	float: left;
 	width: 56%;
+	padding-left: 20px;
 	justify-content: center;
 }
 
