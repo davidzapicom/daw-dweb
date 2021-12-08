@@ -694,18 +694,20 @@ background-color: #122562;
 
 .izquierda-esp-med {
 	float: left;
-	width: 46.6%;
+	width: 45%;
 	justify-content: center;
-	height: 400px;
+	height: 500px;
 	padding: 20px;
+	margin-right: 2.5px;
 }
 
 .derecha-esp-med {
-	width: 46.6%;
+	width: 45%;
 	float: left;
 	justify-content: center;
-	height: 400px;
+	height: 500px;
 	padding: 20px;
+	margin-left: 2.5px;
 }
 
 .abajo-esp {
