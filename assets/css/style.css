@@ -18,7 +18,6 @@
 5. CONTENIDO
 6. FOOTER
 ------------------------------------------------------------------------------ */
-
 /* ------------------------------------------------------------------------------
 FUENTES
 ------------------------------------------------------------------------------ */
@@ -489,12 +488,6 @@ ul {
 	color: #ffffff;
 }
 
-#contenido .texto {
-	margin: 0 auto;
-	width: 50%;
-	text-align: justify;
-}
-
 #contenido img {
 	padding: 20px 0 20px 0;
 	display: flex;
@@ -509,7 +502,7 @@ ul {
 	border-radius: 50%;
 }
 
-.contenedor-mini-m, .contenedor-mini, .contenedor-med, .contenedor-med1, .contenedor-med2, .contenedor, .contenedor-largo, .contenedor-largo-med, .contenedor-largo-med2, .contenedor-largo-max, .contenedor-largo-super-medium, .contenedor-largo-super-max {
+.contenedor-mini-m, .contenedor-mini, .contenedor-med, .contenedor-med1, .contenedor-med2, .contenedor, .contenedor-largo, .contenedor-largo-med, .contenedor-largo-med2, .contenedor-largo-max, .contenedor-largo-super-medium, .contenedor-largo-super-medium2, .contenedor-largo-super-max {
 	margin-top: 20px;
     margin-bottom: 20px;
 	align-items: center;
@@ -574,6 +567,12 @@ ul {
 	padding-right: 20px;
 }
 
+.contenedor-largo-super-medium2 {
+	height: 1050px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .contenedor-largo-super-max {
 	height: 1200px;
 	padding-left: 20px;
@@ -589,6 +588,7 @@ ul {
 .izquierda {
 	float: left;
 	width: 56%;
+	height: 100%;
 	padding-left: 20px;
 	justify-content: center;
 }
@@ -698,10 +698,28 @@ background-color: #122562;
 	margin-top: 100px;
 }
 
+.izq3 {
+	float: left;
+	width: 29%;
+	justify-content: center;
+	height: 100%;
+	padding: 20px;
+}
 
+.cent3 {
+	float: left;
+	width: 29%;
+	justify-content: center;
+	height: 100%;
+	padding: 20px;
+}
 
-
-
+.der3 {
+	float: left;
+	width: 29%;
+	height: 100%;
+	padding: 20px;
+}
 
 .next {
 	color: #ffffff;
@@ -711,6 +729,15 @@ background-color: #122562;
     background-color: #122562;
     border-radius: 20px;
     padding: 10px;
+}
+
+.nextlink {
+	color: #ffffff;
+}
+
+.nextlink:hover {
+	color: #ffffff;
+	font-weight: bold;
 }
 
 /* ------------------------------------------------------------------------------
