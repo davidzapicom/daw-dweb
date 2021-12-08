@@ -47,6 +47,7 @@ body {
 	position: relative;
 	background-color: #e6cca9;
 	width: 100%;
+	line-height: 1.5em
 }
 
 .white {
@@ -508,7 +509,7 @@ ul {
 	border-radius: 50%;
 }
 
-.contenedor-mini-m, .contenedor-mini, .contenedor-med, .contenedor-med2, .contenedor, .contenedor-largo, .contenedor-largo-med, .contenedor-largo-med2, .contenedor-largo-max, .contenedor-largo-super-medium, .contenedor-largo-super-max {
+.contenedor-mini-m, .contenedor-mini, .contenedor-med, .contenedor-med1, .contenedor-med2, .contenedor, .contenedor-largo, .contenedor-largo-med, .contenedor-largo-med2, .contenedor-largo-max, .contenedor-largo-super-medium, .contenedor-largo-super-max {
 	margin-top: 20px;
     margin-bottom: 20px;
 	align-items: center;
@@ -529,8 +530,12 @@ ul {
 	height: 200px;
 }
 
-.contenedor-med2 {
+.contenedor-med1 {
 	height: 300px;
+}
+
+.contenedor-med2 {
+	height: 350px;
 }
 
 .contenedor {
@@ -571,6 +576,12 @@ ul {
 
 .contenedor-largo-super-max {
 	height: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contenedor-largo-super-max2 {
+	height: 1450px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -657,7 +668,7 @@ background-color: #122562;
 	float: left;
 	width: 45%;
 	justify-content: center;
-	height: 500px;
+	height: 600px;
 	padding: 20px;
 	margin-right: 2.5px;
 }
@@ -666,7 +677,7 @@ background-color: #122562;
 	width: 45%;
 	float: left;
 	justify-content: center;
-	height: 500px;
+	height: 600px;
 	padding: 20px;
 	margin-left: 2.5px;
 }
