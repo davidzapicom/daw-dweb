@@ -14,22 +14,12 @@
 1. ESTILOS GENERALES
 2. FUENTES
 3. HEADER
-4. BODY
-5. CONTENIDO
-6. FOOTER
+4. CONTENIDO
+5. FOOTER
+6. INFO BOX
 ------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------
-FUENTES
------------------------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-/* font-family: 'Outfit', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-/* font-family: 'Raleway', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-/* font-family: 'Ubuntu', sans-serif; */
-
-/* ------------------------------------------------------------------------------
-ESTILOS GENERALES
+1. ESTILOS GENERALES
 ------------------------------------------------------------------------------ */
 * {
 	margin: 0;
@@ -91,7 +81,17 @@ body::-webkit-scrollbar-track:active {
 }
 
 /* ------------------------------------------------------------------------------
-HEADER
+2. FUENTES
+------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* ------------------------------------------------------------------------------
+3. HEADER
 ------------------------------------------------------------------------------ */
 header {
 	font-family: 'Outfit', sans-serif;
@@ -429,7 +429,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 /* ------------------------------------------------------------------------------
-CONTENIDO
+4. CONTENIDO
 ------------------------------------------------------------------------------ */
 #contenido {
 	margin: 0 auto;
@@ -741,7 +741,7 @@ background-color: #122562;
 }
 
 /* ------------------------------------------------------------------------------
-FOOTER
+5. FOOTER
 ------------------------------------------------------------------------------ */
 footer {
 	background-color: #122562;
@@ -758,7 +758,7 @@ footer {
 }
 
 /* ------------------------------------------------------------------------------
-INFO BOX
+6. INFO BOX
 ------------------------------------------------------------------------------ */
 #info-box {
 	position: absolute;
