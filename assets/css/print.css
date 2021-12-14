@@ -1,0 +1,13 @@
+/*PRINT*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, #info-box, .next, .linea, iframe {
+    display: none;
+}
+
+img {
+    width: 30%;
+}
