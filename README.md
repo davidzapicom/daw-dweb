@@ -1,7 +1,7 @@
 # **Bootstrap**
 ##  :copyright:___David Zapico___
 
-![Bootstrap image](https://miro.medium.com/max/915/0*4DpFVUP_VfkhzSIL)
+![Bootstrap image](https://www.pacificdigital.vu/wp-content/uploads/2018/02/Pro-web-design.png)
 
 ### Tech stack -> HTML | CSS
 **[Email](mailto:lab@davidzapico.com)**.
